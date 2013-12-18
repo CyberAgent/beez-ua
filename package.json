@@ -1,0 +1,65 @@
+{
+    "name": "beez-ua",
+    "version": "1.0.2",
+    "description": "The library deside which browser has an access from UserAgent for node.js or browser. This library is Forked from zepto.js.",
+    "keywords": [
+        "beez",
+        "useragent",
+        "smartphone",
+        "browser"
+    ],
+    "homepage": "https://github.com/CyberAgent/beez-ua",
+    "licenses": [
+        {
+            "type": "MIT",
+            "url": "https://raw.github.com/CyberAgent/beez-ua/master/LICENSE"
+        }
+    ],
+    "bugs": {
+        "url": "https://github.com/CyberAgent/beez-ua/issues"
+    },
+    "maintainers": {
+        "name": "CyberAgent, Inc",
+        "email": "npm@cyberagent.co.jp",
+        "url": "http://www.cyberagent.co.jp/"
+    },
+    "author": {
+        "name": "CyberAgent, Inc",
+        "email": "npm@cyberagent.co.jp",
+        "url": "http://www.cyberagent.co.jp/"
+    },
+    "contributors": [
+        {
+            "name": "Kei Funagayama",
+            "email": "funagayama_kei@cyberagent.co.jp",
+            "url": "https://github.com/fkei"
+        },
+        {
+            "name": "Kazuma Mishimagi",
+            "email": "mishimagi_kazuma@cyberagent.co.jp",
+            "url": "https://github.com/maginemu"
+        }
+    ],
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/CyberAgent/beez-ua.git"
+    },
+    "dependencies": {
+        "requirejs": "~2.1.0"
+    },
+    "devDependencies": {
+        "underscore": "~1.5.0",
+        "mocha": "~1.14.0",
+        "chai": "~1.8.0",
+        "should": "~2.1.0",
+        "jshint": "~2.3.0",
+        "plato": "~0.6.1",
+        "jsdoc": "~3.2.2"
+    },
+    "engines": {
+        "node": "~0.10.1",
+        "npm": "~1.1.0"
+    },
+    "private": true,
+    "main": "./s/beez-ua/index.js"
+}
