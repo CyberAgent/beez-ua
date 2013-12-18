@@ -1,6 +1,6 @@
 {
     "name": "beez-ua",
-    "version": "1.0.2",
+    "version": "1.0.3",
     "description": "The library deside which browser has an access from UserAgent for node.js or browser. This library is Forked from zepto.js.",
     "keywords": [
         "beez",
@@ -16,6 +16,7 @@
         }
     ],
     "bugs": {
+        "email": "funagayama_kei@cyberagent.co.jp",
         "url": "https://github.com/CyberAgent/beez-ua/issues"
     },
     "maintainers": {
