@@ -191,3 +191,7 @@ THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLI
 ```
 
 This library is forked from [zepto.js](http://zeptojs.com/) that is [MIT License](https://raw.github.com/madrobby/zepto/master/MIT-LICENSE)
+
+
+[![Bitdeli Badge](https://d2weczhvl823v0.cloudfront.net/CyberAgent/beez-ua/trend.png)](https://bitdeli.com/free "Bitdeli Badge")
+
