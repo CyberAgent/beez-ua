@@ -1,0 +1,41 @@
+{
+  "name": "beez-ua",
+  "version": "1.0.3",
+  "description": "The library deside which browser has an access from UserAgent for node.js or browser. This library is Forked from zepto.js.",
+  "keywords": [
+    "beez",
+    "useragent",
+    "smartphone",
+    "browser"
+  ],
+  "readmeFilename": "README.md",
+  "main": [
+    "release/beez.ua.js",
+    "release/beez.ua.min.js"
+  ],
+  "ignore": [
+    "LICENSE",
+    "Makefile",
+    "README.md",
+    "bower.json",
+    "build.js",
+    "component.json",
+    "docs",
+    "node_modules",
+    "package.json",
+    "s",
+    "setver",
+    "spec",
+    "test"
+  ],
+  "repository": {
+      "type": "git",
+      "url": "https://github.com/CyberAgent/beez-ua.git"
+  },
+  "homepage": "https://github.com/CyberAgent/beez-ua.git",
+  "authors": [
+      "CyberAgent, Inc <npm@cyberagent.co.jp>",
+      "Kei Funagayama <funagayama_kei@cyberagent.co.jp>"
+  ],
+  "license": "MIT"
+}
