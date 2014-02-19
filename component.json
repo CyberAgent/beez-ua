@@ -1,0 +1,23 @@
+{
+  "name": "beez-ua",
+  "repo": "CyberAgent/beez-ua",
+  "description": "The library deside which browser has an access from UserAgent for node.js or browser. This library is Forked from zepto.js.",
+  "version": "1.0.3",
+  "keywords": [
+    "beez",
+    "useragent",
+    "smartphone",
+    "browser"
+  ],
+  "dependencies": {},
+  "development": {},
+  "license": "MIT",
+ "main": [
+    "release/beez.ua.js",
+    "release/beez.ua.min.js"
+  ],
+  "scripts": [
+    "release/beez.ua.js",
+    "release/beez.ua.min.js"
+  ]
+}
