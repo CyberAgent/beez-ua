@@ -12,7 +12,7 @@
   "dependencies": {},
   "development": {},
   "license": "MIT",
- "main": [
+  "main": [
     "release/beez.ua.js",
     "release/beez.ua.min.js"
   ],
