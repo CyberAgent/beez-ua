@@ -198,7 +198,21 @@
          * @memberof ua
          * @return {Array}
          */
-        this.safari = useragent.match(/(Version)\/([0-9\.]+).*Safari\/([0-9\.]+)/)
+        this.safari = useragent.match(/(Version)\/([0-9\.]+).*Safari\/([0-9\.]+)/),
+        /**
+         * Decision: trident
+         * @name trident
+         * @memberof ua
+         * @return {Array}
+         */
+        this.trident = useragent.match(/Trident\/([\d\.]+)/),
+        /**
+         * Decision: xbox
+         * @name xbox
+         * @memberof ua
+         * @return {Array}
+         */
+        this.xbox = useragent.match(/Xbox/)
 
         ;
 
@@ -244,6 +258,11 @@
         if (this.webkit) {
             this.browser.webkit = true;
             this.browser.version = this.webkit[1];
+        }
+
+        if (this.trident) {
+            this.browser.trident = true;
+            this.browser.version = this.trident[1];
         }
 
         if (this.android) {

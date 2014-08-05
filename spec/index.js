@@ -148,6 +148,10 @@ define(['index', 'underscore'], function(ua, _){
         "Safari": [
             "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_8_5) AppleWebKit/537.71 (KHTML, like Gecko) Version/6.1 Safari/537.71",
             "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_7_5) AppleWebKit/537.71 (KHTML, like Gecko) Version/6.1 Safari/537.71"
+        ],
+        "Xbox": [
+            "Mozilla/5.0 (compatible; MSIE 9.0; Windows NT 6.1; Trident/5.0; Xbox)",
+            "Mozilla/5.0 (compatible; MSIE 10.0; Windows NT 6.2; Trident/6.0; Xbox; Xbox One)"
         ]
     };
     return function() {
@@ -619,6 +623,19 @@ define(['index', 'underscore'], function(ua, _){
                     expect(ua.browser.version).be.ok
                     expect(ua.os.tablet).not.be.ok
                     expect(ua.os.phone).not.be.ok
+
+                });
+            });
+
+            /**
+             * Xbox
+             */
+            it('ua.xbox', function() {
+                _.each(useragents["Xbox"], function (useragent, idx) {
+                    ua.setup(useragent);
+                    expect(ua.xbox).be.ok;
+                    expect(ua.browser.trident).be.ok;
+                    expect(ua.browser.version).be.ok;
 
                 });
             });
