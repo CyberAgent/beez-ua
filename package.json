@@ -49,17 +49,16 @@
         "requirejs": "~2.1.0"
     },
     "devDependencies": {
-        "underscore": "~1.5.0",
-        "mocha": "~1.14.0",
-        "chai": "~1.8.0",
-        "should": "~2.1.0",
-        "jshint": "~2.3.0",
-        "plato": "~0.6.1",
+        "underscore": "~1.7.0",
+        "mocha": "~1.21.4",
+        "chai": "~1.9.1",
+        "should": "~4.0.4",
+        "jshint": "~2.5.5",
+        "plato": "~1.2.0",
         "jsdoc": "~3.2.2"
     },
     "engines": {
-        "node": "~0.10.1",
-        "npm": "~1.1.0"
+        "node": "~0.10.1"
     },
     "main": "./s/beez-ua/index.js"
 }
