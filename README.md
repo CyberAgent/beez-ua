@@ -128,34 +128,44 @@ $ open ./docs/index.html
 
 ```sh
 $ make test
-./node_modules/mocha/bin/mocha test/test-*.js
+
+####################
+# -- target: test
+node_modules/mocha/bin/mocha test/test-*.js
 
 
   beez-ua
-    ✓ window.nagigator.userAgent 
-    ✓ ua.Android 2.x 
-    ✓ ua.Android 3.x 
-    ✓ ua.Android 4.x 
-    ✓ ua.iphone (IOS4) 
-    ✓ ua.iphone (IOS5) 
-    ✓ ua.iphone (IOS6) 
-    ✓ ua.iphone (IOS4-ipad) 
-    ✓ ua.iphone (IOS5-ipad) 
-    ✓ ua.iphone (IOS6-ipad) 
-    ✓ ua.blackberry 
-    ✓ ua.webos 
-    ✓ ua.touchpad 
-    ✓ ua.kindle 
-    ✓ ua.silk 
-    ✓ ua.bb10 
-    ✓ ua.rimtabletos 
-    ✓ ua.playbook 
-    ✓ ua.ds 
-    ✓ ua.psp 
-    ✓ ua.psvita 
-    ✓ ua.windowsphone 
+    ✓ window.nagigator.userAgent
+    ✓ ua.Android 2.1
+    ✓ ua.Android 2.2
+    ✓ ua.Android 2.3
+    ✓ ua.Android 3.x
+    ✓ ua.Android 4.x
+    ✓ ua.iphone (IOS4)
+    ✓ ua.iphone (IOS5)
+    ✓ ua.iphone (IOS6)
+    ✓ ua.iphone (IOS7)
+    ✓ ua.iphone (IOS4-ipad)
+    ✓ ua.iphone (IOS5-ipad)
+    ✓ ua.iphone (IOS6-ipad)
+    ✓ ua.iphone5 (hardware)
+    ✓ ua.blackberry
+    ✓ ua.webos
+    ✓ ua.touchpad
+    ✓ ua.kindle
+    ✓ ua.silk
+    ✓ ua.bb10
+    ✓ ua.rimtabletos
+    ✓ ua.playbook
+    ✓ ua.ds
+    ✓ ua.psp
+    ✓ ua.psvita
+    ✓ ua.windowsphone
+    ✓ ua.safari
+    ✓ ua.xbox
 
-  21 tests complete (15 ms)
+
+  28 passing (29ms)
 ```
 
 

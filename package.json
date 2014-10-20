@@ -1,6 +1,6 @@
 {
     "name": "beez-ua",
-    "version": "1.0.4",
+    "version": "1.0.5",
     "description": "The library deside which browser has an access from UserAgent for node.js or browser. This library is Forked from zepto.js.",
     "keywords": [
         "beez",

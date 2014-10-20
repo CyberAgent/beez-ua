@@ -1,3 +1,4 @@
+
 /* Zepto v1.0-1-ga3cab6c - polyfill zepto detect event ajax form fx - zeptojs.com/license */
 /**
  * @name index.js<beez-ua>
@@ -14,7 +15,7 @@
      * @name ua
      * @namespace ua
      */
-    var ua = {VERSION: '1.0.4'};
+    var ua = {VERSION: '1.0.5'};
 
     /**
      * UserAgent decision
@@ -198,7 +199,21 @@
          * @memberof ua
          * @return {Array}
          */
-        this.safari = useragent.match(/(Version)\/([0-9\.]+).*Safari\/([0-9\.]+)/)
+        this.safari = useragent.match(/(Version)\/([0-9\.]+).*Safari\/([0-9\.]+)/),
+        /**
+         * Decision: trident
+         * @name trident
+         * @memberof ua
+         * @return {Array}
+         */
+        this.trident = useragent.match(/Trident\/([\d\.]+)/),
+        /**
+         * Decision: xbox
+         * @name xbox
+         * @memberof ua
+         * @return {Array}
+         */
+        this.xbox = useragent.match(/Xbox/)
 
         ;
 
@@ -244,6 +259,11 @@
         if (this.webkit) {
             this.browser.webkit = true;
             this.browser.version = this.webkit[1];
+        }
+
+        if (this.trident) {
+            this.browser.trident = true;
+            this.browser.version = this.trident[1];
         }
 
         if (this.android) {
@@ -367,4 +387,3 @@
     }
 
 })(this);
-
