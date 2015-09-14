@@ -1,4 +1,3 @@
-
 /* Zepto v1.0-1-ga3cab6c - polyfill zepto detect event ajax form fx - zeptojs.com/license */
 /**
  * @name index.js<beez-ua>
@@ -15,7 +14,7 @@
      * @name ua
      * @namespace ua
      */
-    var ua = {VERSION: '1.0.5'};
+    var ua = {VERSION: '1.0.6'};
 
     /**
      * UserAgent decision
@@ -281,6 +280,9 @@
             this.os.ios = this.os.iphone = true;
             this.os.version = this.iphone[2].replace(/_/g, '.');
 
+        } else if (this.ipad) {
+            this.os.ios = this.os.ipad = true;
+            this.os.version = this.ipad[2].replace(/_/g, '.');
         }
 
         var __ios_v_0 = null;
@@ -297,10 +299,6 @@
             this['ios' + i] = __ios_v_0 === "" + i;
         }
 
-        if (this.ipad) {
-            this.os.ios = this.os.ipad = true;
-            this.os.version = this.ipad[2].replace(/_/g, '.');
-        }
         if (this.webos) {
             this.os.webos = true;
             this.os.version = this.webos[2];
@@ -387,3 +385,4 @@
     }
 
 })(this);
+
