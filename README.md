@@ -83,7 +83,7 @@ null
 ## Requirements
 
 - [Underscore.js](http://underscorejs.org/)
-- [mocha](http://visionmedia.github.com/mocha/)
+- [mocha](http://mochajs.org/)
 - [Chai](http://chaijs.com/)
 - [JSHint](http://www.jshint.com/)
 - [plato](https://github.com/jsoverson/plato)
